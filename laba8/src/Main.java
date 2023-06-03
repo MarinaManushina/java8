@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        Reader[] arr = new Reader[1];
+        Reader[] arr = new Reader[5];
         for(int i = 0; i < arr.length; i++){
             System.out.print("Ведите ваше ФИО: ");
             String FIO = in.next();
